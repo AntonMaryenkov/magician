@@ -1,0 +1,115 @@
+.about-artist {
+  margin-top: -3px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-artist__description-block {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-artist__title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  color: $textColorFirst;
+  margin: 0 10% 14px;
+}
+.about-artist__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $textColorFirst;
+  margin: 0 10% 20px;
+}
+
+.about-artist__link {
+  @extend %buttonLink;
+  margin-left: 10%;
+}
+
+.about-artist__img {
+  width: 50%;
+  height: 540px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 990px) {
+  .about-artist {
+    position: relative;
+    background-color: #000;
+    height: 52vw;
+  }
+  .about-artist__img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    opacity: 0.3;
+  }
+  .about-artist__description-block {
+    width: 40%;
+    z-index: 1;
+  }
+  .about-artist__title {
+    margin-left: 5%;
+    font-size: 24px;
+    line-height: 28px;
+    z-index: 1;
+  }
+  .about-artist__description {
+    margin-left: 5%;
+    z-index: 1;
+  }
+  .about-artist__link {
+    margin-left: 5%;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .about-artist__description-block {
+    width: 90%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-artist__title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .about-artist__description {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .about-artist__link {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-artist__img {
+    opacity: 0.2;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .about-artist {
+    height: 63vw;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .about-artist {
+    height: 73vw;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .about-artist {
+    height: 90vw;
+  }
+}

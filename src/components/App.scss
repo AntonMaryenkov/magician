@@ -1,0 +1,90 @@
+$mainColor: #181818;
+
+$textColorFirst: #fff;
+
+%widthBlock {
+  width: 84%;
+}
+%heightHeader {
+  margin-top: 90px;
+}
+
+$maxWidthPage: 1440px;
+
+%buttonLink {
+  text-decoration: none;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #000000;
+  border-radius: 5px;
+  min-width: 90px;
+  max-width: fit-content;
+  padding: 5px 10px 5px 10px;
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.897);
+  }
+}
+
+%titleBlock {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  color: $textColorFirst;
+  margin: 50px 0 60px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: $mainColor;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+@media screen and (max-width: 990px) {
+  %titleBlock {
+    font-size: 34px;
+    line-height: 36px;
+    margin: 40px 0 50px;
+  }
+  %widthBlock {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  %heightHeader {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  %titleBlock {
+    font-size: 30px;
+    line-height: 32px;
+    margin: 30px 0 40px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  %titleBlock {
+    font-size: 26px;
+    line-height: 28px;
+    margin: 20px 0 30px;
+  }
+  %heightHeader {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  %heightHeader {
+    margin-top: 60px;
+  }
+}

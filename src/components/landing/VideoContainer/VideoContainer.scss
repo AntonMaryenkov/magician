@@ -1,0 +1,45 @@
+.video-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    .video-container__button {
+      opacity: 0.8;
+    }
+  }
+}
+
+.video-container__video {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-container__button {
+  position: absolute;
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../../../images/icons/icon-play.svg");
+  background-size: cover;
+  width: 18%;
+  height: 33%;
+  max-width: 100px;
+  max-height: 100px;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+.video-container__button_review {
+  background-size: cover;
+  height: 10%;
+}

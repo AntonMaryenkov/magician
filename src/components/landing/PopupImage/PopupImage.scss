@@ -1,0 +1,62 @@
+.popup-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(24, 24, 24, 0.94);
+  z-index: 5;
+}
+
+.popup-image__container {
+  position: relative;
+  width: 69vw;
+  max-width: fit-content;
+  height: fit-content;
+  margin: 0 auto 0;
+}
+
+.popup-image__button-close {
+  position: absolute;
+  top: -38px;
+  right: -38px;
+  width: 40px;
+  height: 40px;
+  background-image: url("../../../images/icons/icon-close-menu.svg");
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  padding: 0;
+  z-index: 2;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+}
+
+.popup-image__image {
+  max-width: 100%;
+  max-height: 79vh;
+}
+
+@media screen and (max-width: 990px) {
+  .popup-image__button-close {
+    top: -27px;
+    right: -27px;
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .popup-image__container {
+    width: 90vw;
+  }
+  .popup-image__button-close {
+    display: none;
+  }
+}

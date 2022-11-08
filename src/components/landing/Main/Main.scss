@@ -1,0 +1,7 @@
+.main {
+  @extend %heightHeader;
+  width: 100%;
+  max-width: $maxWidthPage;
+  display: flex;
+  flex-direction: column;
+}

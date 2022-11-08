@@ -1,0 +1,16 @@
+.promo-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.promo-video__title {
+  @extend %titleBlock;
+}
+
+.promo-video__video {
+  width: 100%;
+  &:hover {
+    cursor: pointer;
+  }
+}

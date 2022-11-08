@@ -1,0 +1,96 @@
+.card {
+  position: relative;
+  width: 100%;
+  color: $textColorFirst;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+.card__img {
+  width: 100%;
+  object-fit: cover;
+  height: 24vw;
+  max-height: 405px;
+}
+
+.card__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 15px 0 10px;
+}
+
+.card__duration {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c0c0c0;
+  margin-bottom: 5px;
+}
+
+.card__price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #c0c0c0;
+}
+
+.card__span {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #000000;
+  border-radius: 5px;
+  width: 90px;
+  padding: 5px 10px 5px 10px;
+  right: 3%;
+  bottom: 100px;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .card__img {
+    height: 31vw;
+  }
+}
+@media screen and (max-width: 680px) {
+  .card__img {
+    height: 60vw;
+  }
+  .card__title,
+  .card__duration,
+  .card__price {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .card__title {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .card__duration {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 3px;
+  }
+  .card__price {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

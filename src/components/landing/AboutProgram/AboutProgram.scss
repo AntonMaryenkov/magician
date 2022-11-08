@@ -1,0 +1,119 @@
+.about-program {
+  @extend %heightHeader;
+  width: 100%;
+  max-width: $maxWidthPage;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-program__container-main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-program__img-main {
+  width: 60%;
+  max-height: 576px;
+  height: 40vw;
+  object-fit: cover;
+}
+
+.about-program__description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $textColorFirst;
+  margin-left: 3%;
+  margin-right: 3%;
+  letter-spacing: 0.2px;
+}
+
+.about-program__title {
+  @extend %titleBlock;
+  text-align: center;
+}
+
+.about-program__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 15px 0 0;
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.about-program__duration-price {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 20px 0 0;
+  color: #c0c0c0;
+}
+
+.about-program__photos {
+  @extend %widthBlock;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
+  gap: 30px;
+}
+
+.about-program__img {
+  width: 100%;
+  max-height: 400px;
+  height: 25vw;
+  object-fit: cover;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+.about-program__videos-block {
+  @extend %widthBlock;
+  margin: 0 auto 0;
+}
+
+@media screen and (max-width: 990px) {
+  .about-program__container-main {
+    flex-direction: column;
+  }
+  .about-program__img-main {
+    width: 100%;
+    height: 63vw;
+  }
+  .about-program__description-container {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .about-program__description {
+    margin-top: 22px;
+    &:first-of-type {
+      margin-top: 22px;
+    }
+  }
+  .about-program__duration-price {
+    margin-top: 10px;
+  }
+  .about-program__photos {
+    gap: 17px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .about-program__photos {
+    grid-template-columns: 1fr;
+  }
+  .about-program__img {
+    max-height: none;
+    height: 62vw;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .about-program__photos {
+    gap: 10px;
+  }
+}
