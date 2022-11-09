@@ -1,26 +1,29 @@
-@import './vendor/normalize';
-@import './components//App.scss';
-@import './components/landing/Main/Main.scss';
-@import './components/landing/Portfolio/Portfolio.scss';
-@import './components/landing/AboutProgram/AboutProgram.scss';
-@import './components/landing/Header/Header.scss';
-@import './components/landing/VideoMain/VideoMain.scss';
-@import './components/landing/AboutArtist/AboutArtist.scss';
-@import './components/landing/Programs/Programs.scss';
-@import './components/landing/CardList/CardList.scss';
-@import './components/landing/Card/Card.scss';
-@import './components/landing/PhotosGrid/PhotosGrid.scss';
-@import './components/landing/PromoVideo/PromoVideo.scss';
-@import './components/landing/Footer/Footer.scss';
-@import './components/landing/PopupNav/PopupNav.scss';
-@import './components/landing/PopupImage/PopupImage.scss';
-@import './components/landing/VideoContainer/VideoContainer.scss';
+@import "./vendor/normalize";
+@import "./components//App.scss";
+@import "./components/landing/Main/Main.scss";
+@import "./components/landing/Portfolio/Portfolio.scss";
+@import "./components/landing/AboutProgram/AboutProgram.scss";
+@import "./components/landing/Header/Header.scss";
+@import "./components/landing/VideoMain/VideoMain.scss";
+@import "./components/landing/AboutArtist/AboutArtist.scss";
+@import "./components/landing/Programs/Programs.scss";
+@import "./components/landing/CardList/CardList.scss";
+@import "./components/landing/Card/Card.scss";
+@import "./components/landing/PhotosGrid/PhotosGrid.scss";
+@import "./components/landing/PromoVideo/PromoVideo.scss";
+@import "./components/landing/Footer/Footer.scss";
+@import "./components/landing/PopupNav/PopupNav.scss";
+@import "./components/landing/PopupImage/PopupImage.scss";
+@import "./components/landing/VideoContainer/VideoContainer.scss";
+
+html {
+  background-color: #181818;
+}
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
