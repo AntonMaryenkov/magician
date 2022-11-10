@@ -5,6 +5,7 @@ $textColorFirst: #fff;
 %widthBlock {
   width: 84%;
 }
+
 %heightHeader {
   margin-top: 90px;
 }
@@ -15,14 +16,14 @@ $maxWidthPage: 1440px;
   text-decoration: none;
   background-color: #fff;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
   letter-spacing: 0.4px;
   color: #000000;
   border-radius: 5px;
   min-width: 90px;
   max-width: fit-content;
-  padding: 5px 10px 5px 10px;
+  padding: 6px 12px 6px 12px;
   &:hover {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.897);
