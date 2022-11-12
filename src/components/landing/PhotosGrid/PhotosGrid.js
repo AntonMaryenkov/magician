@@ -8,7 +8,7 @@ function PhotosGrid(props) {
         {imgPhotosGridList.map((item, i) =>
           <img key={`main-photos-grid-img-${i}`}
             className={`photos-grid__img photos-grid__img_${i}`}
-            onClick={() => props.openPopup(item.src, item.alt)}
+            onClick={() => props.openPopup(item, imgPhotosGridList)}
             src={item.src}
             alt={item.alt} />)}
       </div>

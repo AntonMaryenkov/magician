@@ -17,14 +17,19 @@ function AboutProgram() {
 
   const [popupIsOpen, setPopupIsOpen] = useState(false);
   const [popupImg, setPopupImg] = useState({});
+  const [popupImgList, setPopupImgList] = useState([]);
 
-  function openPopup(src, alt) {
+  function openPopup(obj, arr) {
+    setPopupImgList(arr);
     setPopupIsOpen(true);
+
     return setPopupImg(
       {
-        src: src,
-        alt: alt
-      });
+        id: obj.id,
+        src: obj.src,
+        alt: obj.alt
+      }
+    );
   };
 
   return (
@@ -46,7 +51,7 @@ function AboutProgram() {
       <div className='about-program__photos'>
         {data.images.photos.map((item, i) =>
           <img className='about-program__img'
-            onClick={() => openPopup(item.src, item.alt)}
+            onClick={() => openPopup(item, data.images.photos)}
             key={`about-program-img-${i}`}
             src={item.src}
             alt={item.alt} />
@@ -63,7 +68,7 @@ function AboutProgram() {
         </div>
         : null}
       <Footer />
-      {popupIsOpen ? <PopupImage popup={popupImg} setPopupIsOpen={setPopupIsOpen} popupIsOpen={popupIsOpen} /> : null}
+      {popupIsOpen ? <PopupImage popup={popupImg} popupImgList={popupImgList} setPopupIsOpen={setPopupIsOpen} popupIsOpen={popupIsOpen} /> : null}
     </div>
   );
 }

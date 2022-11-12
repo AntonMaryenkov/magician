@@ -1,11 +1,51 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function PopupImage(props) {
-  const ESC_CODE = 27;
+  const [buttonLeft, setButtonLeft] = useState(false);
+  const [buttonRight, setButtonRight] = useState(false);
+
+  const [img, setImg] = useState(
+    {
+      id: props.popup.id,
+      src: props.popup.src,
+      alt: props.popup.alt
+    });
+
+  function changeImage(arg) {
+    const currentImgIndex = props.popupImgList.findIndex(item => item.id === img.id);
+    const nextImgIndex = currentImgIndex + arg;
+    const imgListLength = props.popupImgList.length;
+
+    if (nextImgIndex < imgListLength && nextImgIndex >= 0) {
+      return setImg(props.popupImgList[nextImgIndex]);
+    }
+  };
+
+  function showButton() {
+    const currentImgIndex = props.popupImgList.findIndex(item => item.id === img.id);
+    const imgListLength = props.popupImgList.length;
+
+    if (currentImgIndex === 0 ) {
+      setButtonLeft(false);
+    } else {
+      setButtonLeft(true);
+    }
+    if (currentImgIndex === imgListLength - 1) {
+      setButtonRight(false);
+    } else {
+      setButtonRight(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, [changeImage])
 
   function closePopup() {
     return props.setPopupIsOpen(false);
   };
+
+  const ESC_CODE = 27;
 
   function closeEscPopup(isOpen) {
     if (isOpen) {
@@ -42,8 +82,10 @@ function PopupImage(props) {
   return (
     <div className='popup-image' onClick={closePopupClickOverlay}>
       <div className='popup-image__container'>
-        <button className='popup-image__button-close' onClick={closePopup}></button>
-        <img className='popup-image__image' src={props.popup.src} onClick={clickImg} alt={props.popup.alt} />
+        <button className='popup-image__button popup-image__button_close' onClick={closePopup} />
+        <img className='popup-image__image' src={img.src} onClick={clickImg} alt={img.alt} />
+        {buttonLeft ? <button className='popup-image__button popup-image__button_left' onClick={() => changeImage(-1)} /> : null}
+        {buttonRight ? <button className='popup-image__button popup-image__button_right' onClick={() => changeImage(1)} /> : null}
       </div>
     </div>
   );

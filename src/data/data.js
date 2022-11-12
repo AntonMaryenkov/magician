@@ -259,34 +259,42 @@ export const programsListFirst = [
       },
       photos: [
         {
+          id: 'imgLite1',
           src: imgLite1,
           alt: 'Magic Man и фокус с верёвкой.'
         },
         {
+          id: 'imgLite2',
           src: imgLite2,
           alt: 'Magic Man и довольный зритель.'
         },
         {
+          id: 'imgLite3',
           src: imgLite3,
           alt: 'Magic Man и телепатия.'
         },
         {
+          id: 'imgLite4',
           src: imgLite4,
           alt: 'Сценический трюк.'
         },
         {
+          id: 'imgLite5',
           src: imgLite5,
           alt: 'Фокус на юбилее.'
         },
         {
+          id: 'imgLite6',
           src: imgLite6,
           alt: 'Фокус с животным.'
         },
         {
+          id: 'imgLite7',
           src: imgLite7,
           alt: 'Magic Man работает на юбилее.'
         },
         {
+          id: 'imgLite8',
           src: imgLite8,
           alt: 'Magic Man на лотерее.'
         },
@@ -312,34 +320,42 @@ export const programsListFirst = [
       },
       photos: [
         {
+          id: 'imgClassic1',
           src: imgClassic1,
           alt: 'Magiс Man и кролик.'
         },
         {
+          id: 'imgClassic2',
           src: imgClassic2,
           alt: 'Magiс Man и фокус с рыбкой.'
         },
         {
+          id: 'imgClassic3',
           src: imgClassic3,
           alt: 'Magiс Man и фокус с кошельком.'
         },
         {
+          id: 'imgClassic4',
           src: imgClassic4,
           alt: 'Фокус с участием молодожёнов.'
         },
         {
+          id: 'imgClassic5',
           src: imgClassic5,
           alt: 'Восторг от чуда.'
         },
         {
+          id: 'imgClassic6',
           src: imgClassic6,
           alt: 'Объятья зрителей.'
         },
         {
+          id: 'imgClassic7',
           src: imgClassic7,
           alt: 'Фокус с участием иммениницы.'
         },
         {
+          id: 'imgClassic8',
           src: imgClassic8,
           alt: 'Magiс Man отадывает карту зрителя.'
         },
@@ -365,34 +381,42 @@ export const programsListFirst = [
       },
       photos: [
         {
+          id: 'imgLoveMagic1',
           src: imgLoveMagic1,
           alt: 'Фокус с картами.'
         },
         {
+          id: 'imgLoveMagic2',
           src: imgLoveMagic2,
           alt: 'Появление человека из телевизора.'
         },
         {
+          id: 'imgLoveMagic3',
           src: imgLoveMagic3,
           alt: 'Иллюзион с появлением человека.'
         },
         {
+          id: 'imgLoveMagic4',
           src: imgLoveMagic4,
           alt: 'Интерактив со зрителем.'
         },
         {
+          id: 'imgLoveMagic5',
           src: imgLoveMagic5,
           alt: 'Фокус с картиной.'
         },
         {
+          id: 'imgLoveMagic6',
           src: imgLoveMagic6,
           alt: 'Фокус со свечами.'
         },
         {
+          id: 'imgLoveMagic7',
           src: imgLoveMagic7,
           alt: 'Фокус с книгой.'
         },
         {
+          id: 'imgLoveMagic8',
           src: imgLoveMagic8,
           alt: 'Красочный финал выступления с ярким салютом.'
         },
@@ -420,34 +444,42 @@ export const programsListFirst = [
       },
       photos: [
         {
+          id: 'imgChildrensShow1',
           src: imgChildrensShow1,
           alt: 'Фокус со шляпой.'
         },
         {
+          id: 'imgChildrensShow2',
           src: imgChildrensShow2,
           alt: 'Девочка дует на магическую салфетку.'
         },
         {
+          id: 'imgChildrensShow3',
           src: imgChildrensShow3,
           alt: 'Дети проверяют реквизит.'
         },
         {
+          id: 'imgChildrensShow4',
           src: imgChildrensShow4,
           alt: 'Маленькие зрители наслаждаются представлением с кроликом.'
         },
         {
+          id: 'imgChildrensShow5',
           src: imgChildrensShow5,
           alt: 'Африканский ёжик.'
         },
         {
+          id: 'imgChildrensShow6',
           src: imgChildrensShow6,
           alt: 'У Magic Man волшебный ящик.'
         },
         {
+          id: 'imgChildrensShow7',
           src: imgChildrensShow7,
           alt: 'Дети произносят клятву юных волшебников.'
         },
         {
+          id: 'imgChildrensShow8',
           src: imgChildrensShow8,
           alt: 'Полёт голубя на детском шоу.'
         },
@@ -474,18 +506,22 @@ export const programsListFirst = [
       },
       photos: [
         {
+          id: 'imgSchoolYoungWizards1',
           src: imgSchoolYoungWizards1,
           alt: 'Фокус с лимоном.'
         },
         {
+          id: 'imgSchoolYoungWizards2',
           src: imgSchoolYoungWizards2,
           alt: 'Девочка принимает участие в интерактивном шоу.'
         },
         {
+          id: 'imgSchoolYoungWizards3',
           src: imgSchoolYoungWizards3,
           alt: 'Сергей Салтымаков и внимательные зрители.'
         },
         {
+          id: 'imgSchoolYoungWizards4',
           src: imgSchoolYoungWizards4,
           alt: 'Дети колдуют вместе с Сергеем Салтымаковым.'
         },
@@ -512,30 +548,37 @@ export const programsListFirst = [
       },
       photos: [
         {
+          id: 'imgIllusionShowFamily1',
           src: imgIllusionShowFamily1,
           alt: 'Фокус со шляпой и интерактив с детьми.'
         },
         {
+          id: 'imgIllusionShowFamily2',
           src: imgIllusionShowFamily2,
           alt: 'Девочка проверяет реквизит.'
         },
         {
+          id: 'imgIllusionShowFamily3',
           src: imgIllusionShowFamily3,
           alt: 'Девушка принимает участие в интерактивной программе, она стоит на стуле с вытянутыми в разные стороны руками.'
         },
         {
+          id: 'imgIllusionShowFamily4',
           src: imgIllusionShowFamily4,
           alt: 'Мама и дочка принимают участие в фокусе с кошельком.'
         },
         {
+          id: 'imgIllusionShowFamily5',
           src: imgIllusionShowFamily5,
           alt: 'Сергей Салтымаков и волшебный стол.'
         },
         {
+          id: 'imgIllusionShowFamily6',
           src: imgIllusionShowFamily6,
           alt: 'Фокус с исчезновением и два ребенка - участника интерактивного шоу.'
         },
         {
+          id: 'imgIllusionShowFamily7',
           src: imgIllusionShowFamily7,
           alt: 'Дети и фокус с веревкой.'
         },
@@ -562,34 +605,42 @@ export const programsListFirst = [
       },
       photos: [
         {
+          id: 'imgBigShow1',
           src: imgBigShow1,
           alt: 'Magic Man общается со зрителями.'
         },
         {
+          id: 'imgBigShow2',
           src: imgBigShow2,
           alt: 'Magic Man готовиться представить зрителям фокус с левитацией.'
         },
         {
+          id: 'imgBigShow3',
           src: imgBigShow3,
           alt: 'Девочка принимает участие в фокусе "Парящий человек".'
         },
         {
+          id: 'imgBigShow4',
           src: imgBigShow4,
           alt: 'Африканский ёж.'
         },
         {
+          id: 'imgBigShow5',
           src: imgBigShow5,
           alt: 'Фокус с исчезновением и огнём.'
         },
         {
+          id: 'imgBigShow6',
           src: imgBigShow6,
           alt: 'Дети смотрят фокус с кубиком рубика.'
         },
         {
+          id: 'imgBigShow7',
           src: imgBigShow7,
           alt: 'Magic Man запустил салют.'
         },
         {
+          id: 'imgBigShow8',
           src: imgBigShow8,
           alt: 'Мальчик принимает участие в программе.'
         },
@@ -618,34 +669,42 @@ export const programsListSecond = [
       },
       photos: [
         {
+          id: 'imgStreetMagic1',
           src: imgStreetMagic1,
           alt: 'Зрители проверяют иллюзионный реквизит.'
         },
         {
+          id: 'imgStreetMagic2',
           src: imgStreetMagic2,
           alt: 'Ребёнок внимательно следит за карточным фокусом.'
         },
         {
+          id: 'imgStreetMagic3',
           src: imgStreetMagic3,
           alt: 'Две девочки пытаются разоблачить трюк.'
         },
         {
+          id: 'imgStreetMagic4',
           src: imgStreetMagic4,
           alt: 'Флориш с картами.'
         },
         {
+          id: 'imgStreetMagic5',
           src: imgStreetMagic5,
           alt: 'Фокус для работников "Fit-servis".'
         },
         {
+          id: 'imgStreetMagic6',
           src: imgStreetMagic6,
           alt: 'Восторженная публика.'
         },
         {
+          id: 'imgStreetMagic7',
           src: imgStreetMagic7,
           alt: 'Magic Man угадал карту. Зритель в восторге.'
         },
         {
+          id: 'imgStreetMagic8',
           src: imgStreetMagic8,
           alt: 'Искренее удивление юного зрителя от чуда.'
         },
@@ -671,10 +730,12 @@ export const programsListSecond = [
       },
       photos: [
         {
+          id: 'imgMagicPlus1',
           src: imgMagicPlus1,
           alt: 'Портрет из кубиков рубика.'
         },
         {
+          id: 'imgMagicPlus2',
           src: imgMagicPlus2,
           alt: 'Magic Man показывает кубик рубика.'
         },
@@ -700,34 +761,42 @@ export const programsListSecond = [
       },
       photos: [
         {
+          id: 'imgFlight1',
           src: imgFlight1,
           alt: 'Magic Man и парящий человек.'
         },
         {
+          id: 'imgFlight2',
           src: imgFlight2,
           alt: 'Magic Man и парящий человек.'
         },
         {
+          id: 'imgFlight3',
           src: imgFlight3,
           alt: 'Magic Man и парящий человек.'
         },
         {
+          id: 'imgFlight4',
           src: imgFlight4,
           alt: 'Magic Man и парящий человек.'
         },
         {
+          id: 'imgFlight5',
           src: imgFlight5,
           alt: 'Magic Man и парящий человек.'
         },
         {
+          id: 'imgFlight6',
           src: imgFlight6,
           alt: 'Magic Man и парящий человек.'
         },
         {
+          id: 'imgFlight7',
           src: imgFlight7,
           alt: 'Magic Man и парящий человек.'
         },
         {
+          id: 'imgFlight8',
           src: imgFlight8,
           alt: 'Magic Man и парящий человек.'
         },
@@ -753,34 +822,42 @@ export const programsListSecond = [
       },
       photos: [
         {
+          id: 'imgBalance1',
           src: imgBalance1,
           alt: 'Легендарное шоу балансов.'
         },
         {
+          id: 'imgBalance2',
           src: imgBalance2,
           alt: 'Легендарное шоу балансов.'
         },
         {
+          id: 'imgBalance3',
           src: imgBalance3,
           alt: 'Легендарное шоу балансов.'
         },
         {
+          id: 'imgBalance4',
           src: imgBalance4,
           alt: 'Легендарное шоу балансов.'
         },
         {
+          id: 'imgBalance5',
           src: imgBalance5,
           alt: 'Легендарное шоу балансов.'
         },
         {
+          id: 'imgBalance6',
           src: imgBalance6,
           alt: 'Легендарное шоу балансов.'
         },
         {
+          id: 'imgBalance7',
           src: imgBalance7,
           alt: 'Легендарное шоу балансов.'
         },
         {
+          id: 'imgBalance8',
           src: imgBalance8,
           alt: 'Легендарное шоу балансов.'
         },

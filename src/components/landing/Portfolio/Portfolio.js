@@ -12,14 +12,19 @@ import feedbackVideoPoster from '../../../videos/feedback/img-screen/videoScreen
 function Portfolio() {
   const [popupIsOpen, setPopupIsOpen] = useState(false);
   const [popupImg, setPopupImg] = useState({});
+  const [popupImgList, setPopupImgList] = useState([]);
 
-  function openPopup(src, alt) {
+  function openPopup(obj, arr) {
+    setPopupImgList(arr);
     setPopupIsOpen(true);
+
     return setPopupImg(
       {
-        src: src,
-        alt: alt
-      });
+        id: obj.id,
+        src: obj.src,
+        alt: obj.alt
+      }
+    );
   };
 
   return (
@@ -39,29 +44,29 @@ function Portfolio() {
       <h2 className='portfolio__title'>Фото</h2>
       <div className='portfolio__photos-grid'>
         {imgGridPortfolioList.map((item, i) =>
-          <img className={`portfolio__img portfolio__img_${i}`} key={item.id} src={item.src} alt={item.alt} onClick={() => openPopup(item.src, item.alt)} />)}
+          <img className={`portfolio__img portfolio__img_${i}`} key={item.id} src={item.src} alt={item.alt} onClick={() => openPopup(item, imgGridPortfolioList)} />)}
       </div>
       <h2 className='portfolio__title'>Афиши</h2>
       <div className='portfolio__img-list'>
         {portfolioPostersList.map(item =>
-          <img className='portfolio__poster' src={item.src} alt={item.alt} key={item.id} onClick={() => openPopup(item.src, item.alt)} />)}
+          <img className='portfolio__poster' src={item.src} alt={item.alt} key={item.id} onClick={() => openPopup(item, portfolioPostersList)} />)}
       </div>
       <h2 className='portfolio__title'>Награды</h2>
       <div className='portfolio__img-list portfolio__img-list_diplomas'>
         {portfolioDiplomasList.map(item =>
-          <img className='portfolio__diploma' src={item.src} alt={item.alt} key={item.id} onClick={() => openPopup(item.src, item.alt)} />)}
+          <img className='portfolio__diploma' src={item.src} alt={item.alt} key={item.id} onClick={() => openPopup(item, portfolioDiplomasList)} />)}
       </div>
       <h2 className='portfolio__title'>Отзывы</h2>
       <div className='portfolio__feedback-grid'>
         {feedbackList.map((item, i) =>
-          <img className={`portfolio__feedback-img portfolio__feedback-img_${i}`} key={item.id} src={item.src} onClick={() => openPopup(item.src, item.alt)} alt='Отзыв о работе Сергея Салтымакова.' />
+          <img className={`portfolio__feedback-img portfolio__feedback-img_${i}`} key={item.id} src={item.src} onClick={() => openPopup(item, feedbackList)} alt='Отзыв о работе Сергея Салтымакова.' />
         )}
         <div className='portfolio__video-review'>
           <VideoContainer src={feedbackVideo} poster={feedbackVideoPoster} mod='review' />
         </div>
       </div>
       <Footer />
-      {popupIsOpen ? <PopupImage popup={popupImg} setPopupIsOpen={setPopupIsOpen} popupIsOpen={popupIsOpen} /> : null}
+      {popupIsOpen ? <PopupImage popup={popupImg} popupImgList={popupImgList} setPopupIsOpen={setPopupIsOpen} popupIsOpen={popupIsOpen} /> : null}
     </div >
   );
 }

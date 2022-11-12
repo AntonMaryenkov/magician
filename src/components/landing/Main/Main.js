@@ -13,13 +13,17 @@ import ScrollToTop from '../../utils/ScrollToTop';
 function Main() {
   const [popupIsOpen, setPopupIsOpen] = useState(false);
   const [popupImg, setPopupImg] = useState({});
+  const [popupImgList, setPopupImgList] = useState([]);
 
-  function openPopup(src, alt) {
+  function openPopup(obj, arr) {
+    setPopupImgList(arr);
     setPopupIsOpen(true);
+
     return setPopupImg(
       {
-        src: src,
-        alt: alt
+        id: obj.id,
+        src: obj.src,
+        alt: obj.alt
       }
     );
   };
@@ -35,7 +39,9 @@ function Main() {
       <PhotosGrid openPopup={openPopup} />
       <PromoVideo />
       <Footer />
-      {popupIsOpen ? <PopupImage popup={popupImg} popupIsOpen={popupIsOpen} setPopupIsOpen={setPopupIsOpen} /> : null}
+      {popupIsOpen ?
+        <PopupImage popup={popupImg} popupImgList={popupImgList} popupIsOpen={popupIsOpen} setPopupIsOpen={setPopupIsOpen} />
+        : null}
     </div>
   );
 }
