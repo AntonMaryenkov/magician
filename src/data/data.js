@@ -78,16 +78,16 @@ import imgBigShow6 from '../images/programs/BigShow/img6.jpg';
 import imgBigShow7 from '../images/programs/BigShow/img7.jpg';
 import imgBigShow8 from '../images/programs/BigShow/img8.jpg';
 // Street Magic (микромагия)
-import imgMainStreetMagic from '../images/programs/StreetMagic/image-main.jpg';
-import imgStreetMagicAboutProgram from '../images/programs/StreetMagic/img0.jpg';
-import imgStreetMagic1 from '../images/programs/StreetMagic/img1.jpg';
-import imgStreetMagic2 from '../images/programs/StreetMagic/img2.jpg';
-import imgStreetMagic3 from '../images/programs/StreetMagic/img3.jpg';
-import imgStreetMagic4 from '../images/programs/StreetMagic/img4.jpg';
-import imgStreetMagic5 from '../images/programs/StreetMagic/img5.jpg';
-import imgStreetMagic6 from '../images/programs/StreetMagic/img6.jpg';
-import imgStreetMagic7 from '../images/programs/StreetMagic/img7.jpg';
-import imgStreetMagic8 from '../images/programs/StreetMagic/img8.jpg';
+import imgMainStreetMagic from '../images/programs/ClouseUpMagic/image-main.jpg';
+import imgStreetMagicAboutProgram from '../images/programs/ClouseUpMagic/img0.jpg';
+import imgStreetMagic1 from '../images/programs/ClouseUpMagic/img1.jpg';
+import imgStreetMagic2 from '../images/programs/ClouseUpMagic/img2.jpg';
+import imgStreetMagic3 from '../images/programs/ClouseUpMagic/img3.jpg';
+import imgStreetMagic4 from '../images/programs/ClouseUpMagic/img4.jpg';
+import imgStreetMagic5 from '../images/programs/ClouseUpMagic/img5.jpg';
+import imgStreetMagic6 from '../images/programs/ClouseUpMagic/img6.jpg';
+import imgStreetMagic7 from '../images/programs/ClouseUpMagic/img7.jpg';
+import imgStreetMagic8 from '../images/programs/ClouseUpMagic/img8.jpg';
 // Magic+
 import imgMainMagicPlus from '../images/programs/MagicPlus/image-main.jpg';
 import imgMagicPlusAboutProgram from '../images/programs/MagicPlus/img0.jpg';
@@ -658,8 +658,8 @@ export const programsListFirst = [
 
 export const programsListSecond = [
   {
-    id: 'street-magic',
-    name: 'Street Magic (микромагия)',
+    id: 'clouse-up-magic',
+    name: 'Сlouse-up magic (микромагия)',
     images: {
       imgMain: {
         src: imgMainStreetMagic,
