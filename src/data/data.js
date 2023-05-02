@@ -49,13 +49,6 @@ import imgChildrensShow5 from '../images/programs/ChildrensShow/img5.jpg';
 import imgChildrensShow6 from '../images/programs/ChildrensShow/img6.jpg';
 import imgChildrensShow7 from '../images/programs/ChildrensShow/img7.jpg';
 import imgChildrensShow8 from '../images/programs/ChildrensShow/img8.jpg';
-// «Школа юных волшебников»
-import imgMainSchoolYoungWizards from '../images/programs/SchoolYoungWizards/image-main.jpg';
-import imgSchoolYoungWizardsAboutProgram from '../images/programs/SchoolYoungWizards/img0.jpg';
-import imgSchoolYoungWizards1 from '../images/programs/SchoolYoungWizards/img1.jpg';
-import imgSchoolYoungWizards2 from '../images/programs/SchoolYoungWizards/img2.jpg';
-import imgSchoolYoungWizards3 from '../images/programs/SchoolYoungWizards/img3.jpg';
-import imgSchoolYoungWizards4 from '../images/programs/SchoolYoungWizards/img4.jpg';
 // Иллюзионное шоу для детей и всей семьи
 import imgMainIllusionShowFamily from '../images/programs/IllusionShowFamily/image-main.jpg';
 import imgIllusionShowFamilyAboutProgram from '../images/programs/IllusionShowFamily/img0.jpg';
@@ -104,20 +97,6 @@ import imgFlight5 from '../images/programs/Flight/img5.jpg';
 import imgFlight6 from '../images/programs/Flight/img6.jpg';
 import imgFlight7 from '../images/programs/Flight/img7.jpg';
 import imgFlight8 from '../images/programs/Flight/img8.jpg';
-// Шоу балансов
-import imgMainBalance from '../images/programs/Balance/image-main.jpg';
-import imgBalanceAboutProgram from '../images/programs/Balance/img0.jpg';
-import imgBalance1 from '../images/programs/Balance/img1.jpg';
-import imgBalance2 from '../images/programs/Balance/img2.jpg';
-import imgBalance3 from '../images/programs/Balance/img3.jpg';
-import imgBalance4 from '../images/programs/Balance/img4.jpg';
-import imgBalance5 from '../images/programs/Balance/img5.jpg';
-import imgBalance6 from '../images/programs/Balance/img6.jpg';
-import imgBalance7 from '../images/programs/Balance/img7.jpg';
-import imgBalance8 from '../images/programs/Balance/img8.jpg';
-// Шоу балансов видео и poster для видео
-import videoBalance from '../videos/balance/videoBalance.mp4';
-import screenVideoBalance from '../videos/balance/img-screen/videoScreenBalance.jpg';
 // Видео для Portfolio
 import videoPortfolio1 from '../videos/portfolio/video1.MP4';
 import videoPortfolio2 from '../videos/portfolio/video2.MP4';
@@ -247,7 +226,7 @@ export const imgPhotosGridList = [
 export const programsListFirst = [
   {
     id: 'lite',
-    name: 'Интерактивная программа «Lite»',
+    name: 'Экспресс поздравление',
     images: {
       imgMain: {
         src: imgMainLite,
@@ -427,8 +406,8 @@ export const programsListFirst = [
       '✔️ Драгоценный предмет зрителя, кольцо, кулон или часы невероятным образом исчезают и появляются в невозможном месте!',
       '✔️ Невероятное размножение бутылок вина сопровождается искрометным юмором и криками из зала «А можно нам так же?».'
     ],
-    duration: '35-40 минут',
-    price: '21000₽',
+    duration: '35 минут',
+    price: '25 000₽',
   },
   {
     id: 'childrens-illusion-show',
@@ -490,49 +469,7 @@ export const programsListFirst = [
       'Шоу предназначенно для детей от 4 до 8 лет, рекомендовано к семейному просмотру, так же рекомендуется проводить шоу, до игровых программ с артистами детских праздников, и не в коем случае не кормить детей сладким, это повышает количество эндорфина в организме и дети теряют контроль над собой!'
     ],
     duration: '25-30 минут',
-    price: '8000₽.',
-  },
-  {
-    id: 'school-young-wizards',
-    name: '«Школа юных волшебников»',
-    images: {
-      imgMain: {
-        src: imgMainSchoolYoungWizards,
-        alt: 'Карточная тасовка.'
-      },
-      imgAboutProgram: {
-        src: imgSchoolYoungWizardsAboutProgram,
-        alt: 'Magic Man держит на вытянутой руке поднос с ёжиком. Дети счастливы.'
-      },
-      photos: [
-        {
-          id: 'imgSchoolYoungWizards1',
-          src: imgSchoolYoungWizards1,
-          alt: 'Фокус с лимоном.'
-        },
-        {
-          id: 'imgSchoolYoungWizards2',
-          src: imgSchoolYoungWizards2,
-          alt: 'Девочка принимает участие в интерактивном шоу.'
-        },
-        {
-          id: 'imgSchoolYoungWizards3',
-          src: imgSchoolYoungWizards3,
-          alt: 'Сергей Салтымаков и внимательные зрители.'
-        },
-        {
-          id: 'imgSchoolYoungWizards4',
-          src: imgSchoolYoungWizards4,
-          alt: 'Дети колдуют вместе с Сергеем Салтымаковым.'
-        },
-      ]
-    },
-    description: [
-      'Эта классическая программа для детей, которая прерывается на самый настоящий магический урок, дети станут не просто зрителями а настоящими чародеями! За 20 минут мастер класса дети познают азы иллюзионного мира и освоят от 3 до 5 фокусов!',
-      '*количество детей проговаривается отдельно, это очень важно, цена может отличаться.'
-    ],
-    duration: '50-60 минут',
-    price: '12 000₽',
+    price: '10 000₽.',
   },
   {
     id: 'family-show',
@@ -589,7 +526,7 @@ export const programsListFirst = [
       'Эта программа для детей старше 10 лет, подростков и их родителей. Трюки построены на взаимодействии со зрителями, и смысл фокусов уже гораздо серьезней чем в детской программе, здесь вы увидите фокусы с картами, числами, чтением мыслей, головоломками и даже деньгами.'
     ],
     duration: '30 минут',
-    price: '12 000₽',
+    price: '13 000₽',
   },
   {
     id: 'big-show',
@@ -652,7 +589,7 @@ export const programsListFirst = [
       'В программе учавствуют животные, волшебный ёжик и очаровательный голубь. Их можно погладить и сфотографироваться с ними.'
     ],
     duration: '45 минут',
-    price: '15 000₽',
+    price: '17 000₽',
   },
 ];
 
@@ -716,7 +653,7 @@ export const programsListSecond = [
       'Это уникальный жанр переплетает в себе и ловкость рук, и отвлечение внимание, и ментализм - чтение мыслей, и много всего другого, а главное что все происходите на расстоянии вытянутой руки, а порою и в руках зрителя! Этот жанр прекрасно подходит чтоб встретить гостей в начале мероприятия или заполнить перерыв в программе! Продолжительность шоу 30 минут, (изменения во времени данного шоу - увеличение или уменьшение обговаривается отдельно) Стоимость 9500₽. При заказе любого пакета сценического номера, услугу «Street Magic» вы можете купить за 5000₽',
     ],
     duration: '30 минут',
-    price: '9500₽',
+    price: '12 000₽',
   },
   {
     id: 'magic-plus',
@@ -747,7 +684,7 @@ export const programsListSecond = [
       'Дополнительный номер для индивидуального поздравления - картина из кубиков Рубика! Перед вами является огромная картина из кубиков Рубика они совершенно рандомно замешаны и нет никакого конкретного изображения, виновник торжества/директор/юбиляр/невеста перемешивает один кубик случайным образом, вставляя его в центр этой огромной картины и развернув всю конструкцию мы видим что с другой стороны получился портрет человека или логотип компании или символ года, все что угодно. Продолжительность 4 минуты. Стоимость 4500₽.',
     ],
     duration: '4 минуты',
-    price: '4500₽',
+    price: '7 000₽',
   },
   {
     id: 'flight',
@@ -808,76 +745,7 @@ export const programsListSecond = [
       'Вишенкой на торте, если можно так сказать станет полёт человека на вашем мероприятии! Взлететь сможет кто то из зрителей, и совершив невероятный полет Девида Копперфильда докажет, что магия действительно существует! Продолжительность 4 минуты. Стоимость 4500₽.',
     ],
     duration: '4 минуты',
-    price: '4500₽',
-  },
-  {
-    id: 'show-balances',
-    name: '«Шоу балансов»',
-    images: {
-      imgMain: {
-        src: imgMainBalance,
-        alt: 'Легендарное шоу балансов.'
-      },
-      imgAboutProgram: {
-        src: imgBalanceAboutProgram,
-        alt: 'Легендарное шоу балансов.'
-      },
-      photos: [
-        {
-          id: 'imgBalance1',
-          src: imgBalance1,
-          alt: 'Легендарное шоу балансов.'
-        },
-        {
-          id: 'imgBalance2',
-          src: imgBalance2,
-          alt: 'Легендарное шоу балансов.'
-        },
-        {
-          id: 'imgBalance3',
-          src: imgBalance3,
-          alt: 'Легендарное шоу балансов.'
-        },
-        {
-          id: 'imgBalance4',
-          src: imgBalance4,
-          alt: 'Легендарное шоу балансов.'
-        },
-        {
-          id: 'imgBalance5',
-          src: imgBalance5,
-          alt: 'Легендарное шоу балансов.'
-        },
-        {
-          id: 'imgBalance6',
-          src: imgBalance6,
-          alt: 'Легендарное шоу балансов.'
-        },
-        {
-          id: 'imgBalance7',
-          src: imgBalance7,
-          alt: 'Легендарное шоу балансов.'
-        },
-        {
-          id: 'imgBalance8',
-          src: imgBalance8,
-          alt: 'Легендарное шоу балансов.'
-        },
-      ]
-    },
-    videos: [
-      {
-        id: 'videoBalance',
-        video: videoBalance,
-        poster: screenVideoBalance
-      }
-    ],
-    description: [
-      'Совершенно новый формат эстрадного номера, наполненный этнической атмосферой и национальным шорским колоритом. В основу номера легла философия того, что во всем, чем бы не занимался человек очень важно великое равновесие, и что бы не нарушать гармонию и баланс важна даже самая маленькая, не значительная деталь.',
-      'Более удивительно то, что данный номер на планете показывают лишь несколько человек, спешите видеть легендарное шоу балансов!',
-    ],
-    duration: '10 минут',
-    price: '10 000₽',
+    price: '7 000₽',
   },
 ];
 
