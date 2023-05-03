@@ -5,6 +5,8 @@ import imgPhotosGrid3 from '../images/photos-grid/img3.jpg';
 import imgPhotosGrid4 from '../images/photos-grid/img4.jpg';
 import imgPhotosGrid5 from '../images/photos-grid/img5.jpg';
 import imgPhotosGrid6 from '../images/photos-grid/img6.jpg';
+import imgPhotosGrid7 from '../images/photos-grid/img7.jpg';
+import imgPhotosGrid8 from '../images/photos-grid/img8.jpg';
 // Интерактивная программа «Lite»
 import imgMainLite from '../images/programs/Lite/image-main.jpg';
 import imgLiteAboutProgram from '../images/programs/Lite/img0.jpg';
@@ -27,6 +29,9 @@ import imgClassic5 from '../images/programs/Classic/img5.jpg';
 import imgClassic6 from '../images/programs/Classic/img6.jpg';
 import imgClassic7 from '../images/programs/Classic/img7.jpg';
 import imgClassic8 from '../images/programs/Classic/img8.jpg';
+import imgClassic9 from '../images/programs/Classic/img9.jpg';
+import imgClassic10 from '../images/programs/Classic/img10.jpg';
+import imgClassic11 from '../images/programs/Classic/img11.jpg';
 // Шоу «LOVE MAGIC»
 import imgMainLoveMagic from '../images/programs/LoveMagic/image-main.jpg';
 import imgLoveMagicAboutProgram from '../images/programs/LoveMagic/img0.jpg';
@@ -70,7 +75,7 @@ import imgBigShow5 from '../images/programs/BigShow/img5.jpg';
 import imgBigShow6 from '../images/programs/BigShow/img6.jpg';
 import imgBigShow7 from '../images/programs/BigShow/img7.jpg';
 import imgBigShow8 from '../images/programs/BigShow/img8.jpg';
-// Street Magic (микромагия)
+// Сlouse-up magic (микромагия)
 import imgMainStreetMagic from '../images/programs/ClouseUpMagic/image-main.jpg';
 import imgStreetMagicAboutProgram from '../images/programs/ClouseUpMagic/img0.jpg';
 import imgStreetMagic1 from '../images/programs/ClouseUpMagic/img1.jpg';
@@ -81,11 +86,16 @@ import imgStreetMagic5 from '../images/programs/ClouseUpMagic/img5.jpg';
 import imgStreetMagic6 from '../images/programs/ClouseUpMagic/img6.jpg';
 import imgStreetMagic7 from '../images/programs/ClouseUpMagic/img7.jpg';
 import imgStreetMagic8 from '../images/programs/ClouseUpMagic/img8.jpg';
+import imgStreetMagic9 from '../images/programs/ClouseUpMagic/img9.jpg';
+import imgStreetMagic10 from '../images/programs/ClouseUpMagic/img10.jpg';
+import imgStreetMagic11 from '../images/programs/ClouseUpMagic/img11.jpg';
+import imgStreetMagic12 from '../images/programs/ClouseUpMagic/img12.jpg';
 // Magic+
 import imgMainMagicPlus from '../images/programs/MagicPlus/image-main.jpg';
 import imgMagicPlusAboutProgram from '../images/programs/MagicPlus/img0.jpg';
 import imgMagicPlus1 from '../images/programs/MagicPlus/img1.jpg';
 import imgMagicPlus2 from '../images/programs/MagicPlus/img2.jpg';
+import imgMagicPlus3 from '../images/programs/MagicPlus/img3.jpg';
 // Полёт
 import imgMainFlight from '../images/programs/Flight/image-main.jpg';
 import imgFlightAboutProgram from '../images/programs/Flight/img0.jpg';
@@ -97,6 +107,7 @@ import imgFlight5 from '../images/programs/Flight/img5.jpg';
 import imgFlight6 from '../images/programs/Flight/img6.jpg';
 import imgFlight7 from '../images/programs/Flight/img7.jpg';
 import imgFlight8 from '../images/programs/Flight/img8.jpg';
+import imgFlight9 from '../images/programs/Flight/img9.jpg';
 // Видео для Portfolio
 import videoPortfolio1 from '../videos/portfolio/video1.MP4';
 import videoPortfolio2 from '../videos/portfolio/video2.MP4';
@@ -214,12 +225,22 @@ export const imgPhotosGridList = [
   {
     id: 'imgPhotosGrid5',
     src: imgPhotosGrid5,
-    alt: 'Magic Man и парящая девушка.'
+    alt: 'Девочка смотрит карточный фокус.'
   },
   {
     id: 'imgPhotosGrid6',
     src: imgPhotosGrid6,
     alt: 'Magic Man и удивлённая девочка.'
+  },
+  {
+    id: 'imgPhotosGrid7',
+    src: imgPhotosGrid7,
+    alt: 'Сергей Салтымаков выступает перед публикой на празднике.'
+  },
+  {
+    id: 'imgPhotosGrid8',
+    src: imgPhotosGrid8,
+    alt: 'В руках Сергея Салтымакова карточный веер.'
   },
 ];
 
@@ -337,6 +358,21 @@ export const programsListFirst = [
           id: 'imgClassic8',
           src: imgClassic8,
           alt: 'Magiс Man отадывает карту зрителя.'
+        },
+        {
+          id: 'imgClassic9',
+          src: imgClassic9,
+          alt: 'Фокус с бутылками.'
+        },
+        {
+          id: 'imgClassic10',
+          src: imgClassic10,
+          alt: 'Фокус "Картина жизни".'
+        },
+        {
+          id: 'imgClassic11',
+          src: imgClassic11,
+          alt: 'Фокус с купюрой.'
         },
       ]
     },
@@ -534,7 +570,7 @@ export const programsListFirst = [
     images: {
       imgMain: {
         src: imgMainBigShow,
-        alt: 'Magic Man с розой в руках.'
+        alt: 'Magic Man и парящая в воздухе девушка.'
       },
       imgAboutProgram: {
         src: imgBigShowAboutProgram,
@@ -647,6 +683,26 @@ export const programsListSecond = [
           src: imgStreetMagic8,
           alt: 'Искренее удивление юного зрителя от чуда.'
         },
+        {
+          id: 'imgStreetMagic9',
+          src: imgStreetMagic9,
+          alt: 'Двое мужчин следят за действием рук Сергея.'
+        },
+        {
+          id: 'imgStreetMagic10',
+          src: imgStreetMagic10,
+          alt: 'Женщина радуется удачному фокусу с мячиками.'
+        },
+        {
+          id: 'imgStreetMagic11',
+          src: imgStreetMagic11,
+          alt: 'Сергей Салтымаков показывает женщинам карточный фокус.'
+        },
+        {
+          id: 'imgStreetMagic12',
+          src: imgStreetMagic12,
+          alt: 'Девочка смотрит карточный фокус.'
+        },
       ]
     },
     description: [
@@ -678,6 +734,11 @@ export const programsListSecond = [
           src: imgMagicPlus2,
           alt: 'Magic Man показывает кубик рубика.'
         },
+        {
+          id: 'imgMagicPlus3',
+          src: imgMagicPlus3,
+          alt: 'Портрет Альберта Эйнштейна кубиков рубика.'
+        },
       ]
     },
     description: [
@@ -688,7 +749,7 @@ export const programsListSecond = [
   },
   {
     id: 'flight',
-    name: 'Полёт',
+    name: 'Полёт зрителя',
     images: {
       imgMain: {
         src: imgMainFlight,
@@ -737,6 +798,11 @@ export const programsListSecond = [
         {
           id: 'imgFlight8',
           src: imgFlight8,
+          alt: 'Magic Man и парящий человек.'
+        },
+        {
+          id: 'imgFlight9',
+          src: imgFlight9,
           alt: 'Magic Man и парящий человек.'
         },
       ]
