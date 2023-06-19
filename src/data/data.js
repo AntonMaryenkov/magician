@@ -45,12 +45,10 @@ import imgLoveMagic7 from '../images/programs/LoveMagic/img7.jpg';
 import imgLoveMagic8 from '../images/programs/LoveMagic/img8.jpg';
 //Детское иллюзионное шоу
 import imgMainChildrensShow from '../images/programs/ChildrensShow/image-main.jpg';
-import imgChildrensShowcAboutProgram from '../images/programs/ChildrensShow/img0.jpg';
-import imgChildrensShow1 from '../images/programs/ChildrensShow/img1.jpg';
+import imgChildrensShowcAboutProgram from '../images/programs/ChildrensShow/img1.jpg';
 import imgChildrensShow2 from '../images/programs/ChildrensShow/img2.jpg';
 import imgChildrensShow3 from '../images/programs/ChildrensShow/img3.jpg';
 import imgChildrensShow4 from '../images/programs/ChildrensShow/img4.jpg';
-import imgChildrensShow5 from '../images/programs/ChildrensShow/img5.jpg';
 import imgChildrensShow6 from '../images/programs/ChildrensShow/img6.jpg';
 import imgChildrensShow7 from '../images/programs/ChildrensShow/img7.jpg';
 import imgChildrensShow8 from '../images/programs/ChildrensShow/img8.jpg';
@@ -70,7 +68,6 @@ import imgBigShowAboutProgram from '../images/programs/BigShow/img0.jpg';
 import imgBigShow1 from '../images/programs/BigShow/img1.jpg';
 import imgBigShow2 from '../images/programs/BigShow/img2.jpg';
 import imgBigShow3 from '../images/programs/BigShow/img3.jpg';
-import imgBigShow4 from '../images/programs/BigShow/img4.jpg';
 import imgBigShow5 from '../images/programs/BigShow/img5.jpg';
 import imgBigShow6 from '../images/programs/BigShow/img6.jpg';
 import imgBigShow7 from '../images/programs/BigShow/img7.jpg';
@@ -451,18 +448,13 @@ export const programsListFirst = [
     images: {
       imgMain: {
         src: imgMainChildrensShow,
-        alt: 'Magic Man и третья рука.'
+        alt: 'Девочка дует на магическую салфетку.'
       },
       imgAboutProgram: {
         src: imgChildrensShowcAboutProgram,
-        alt: 'Magic Man, ёжик и счастливый ребёнок.'
+        alt: 'Фокус со шляпой.'
       },
       photos: [
-        {
-          id: 'imgChildrensShow1',
-          src: imgChildrensShow1,
-          alt: 'Фокус со шляпой.'
-        },
         {
           id: 'imgChildrensShow2',
           src: imgChildrensShow2,
@@ -477,11 +469,6 @@ export const programsListFirst = [
           id: 'imgChildrensShow4',
           src: imgChildrensShow4,
           alt: 'Маленькие зрители наслаждаются представлением с кроликом.'
-        },
-        {
-          id: 'imgChildrensShow5',
-          src: imgChildrensShow5,
-          alt: 'Африканский ёжик.'
         },
         {
           id: 'imgChildrensShow6',
@@ -501,7 +488,7 @@ export const programsListFirst = [
       ]
     },
     description: [
-      'Детское иллюзионное шоу для самых маленьких! Программа построена на самых визуальных трюках, чтоб держать внимание самых маленьких зрителей, дети участвуют в трюках, так как программа абсолютно интерактивна. Отгадывают цвета, запоминают количество платочков, угадывают форму предметов, все трюки построены на том, что знакомо и привычно детям, что не требует сложных вычислений. Так же программа наполнена шутками, гэгами и юмористическими миниатюрами! В программе участвуют животные - карликовый африканский ёжик Коржик и египетская смеющаяся горлица Финист.',
+      'Детское иллюзионное шоу для самых маленьких! Программа построена на самых визуальных трюках, чтоб держать внимание самых маленьких зрителей, дети участвуют в трюках, так как программа абсолютно интерактивна. Отгадывают цвета, запоминают количество платочков, угадывают форму предметов, все трюки построены на том, что знакомо и привычно детям, что не требует сложных вычислений. Так же программа наполнена шутками, гэгами и юмористическими миниатюрами! В программе участвует египетская смеющаяся горлица Финист.',
       'Шоу предназначенно для детей от 4 до 8 лет, рекомендовано к семейному просмотру, так же рекомендуется проводить шоу, до игровых программ с артистами детских праздников, и не в коем случае не кормить детей сладким, это повышает количество эндорфина в организме и дети теряют контроль над собой!'
     ],
     duration: '25-30 минут',
@@ -593,11 +580,6 @@ export const programsListFirst = [
           alt: 'Девочка принимает участие в фокусе "Парящий человек".'
         },
         {
-          id: 'imgBigShow4',
-          src: imgBigShow4,
-          alt: 'Африканский ёж.'
-        },
-        {
           id: 'imgBigShow5',
           src: imgBigShow5,
           alt: 'Фокус с исчезновением и огнём.'
@@ -622,7 +604,6 @@ export const programsListFirst = [
     description: [
       'Это полноценное иллюзионное шоу, с превращением предметов, левитацией, чтением мыслей и предсказаниями, оно позволит окунуться в мир магии с головой!',
       'В этом шоу вы увидите трюки различных жанров: ментализм - чтение мыслей, сценическая магия - крупные фокусы основанные на ловкости рук и отвлечении внимания, микромагия - трюки с картами и мелкими предметами!',
-      'В программе учавствуют животные, волшебный ёжик и очаровательный голубь. Их можно погладить и сфотографироваться с ними.'
     ],
     duration: '45 минут',
     price: '17 000₽',
