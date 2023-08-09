@@ -5,7 +5,7 @@ import PhotosGrid from '../PhotosGrid/PhotosGrid';
 import Programs from '../Programs/Programs';
 import VideoMain from '../VideoMain/VideoMain';
 import PromoVideo from '../PromoVideo/PromoVideo';
-import { programsListFirst, programsListSecond } from '../../../data/data';
+import { programsListFirst, programsListSecond, programsListThird } from '../../../data/data';
 import PopupImage from '../PopupImage/PopupImage';
 import { useState } from 'react';
 import ScrollToTop from '../../utils/ScrollToTop';
@@ -35,7 +35,8 @@ function Main() {
       <VideoMain />
       <AboutArtist />
       <Programs programsList={programsListFirst} title='Программы' />
-      <Programs programsList={programsListSecond} title='А также' />
+      <Programs programsList={programsListSecond} title='Детские праздники' />
+      <Programs programsList={programsListThird} title='А также' />
       <PhotosGrid openPopup={openPopup} />
       <PromoVideo />
       <Footer />

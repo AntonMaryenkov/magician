@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import { programsListFirst, programsListSecond } from "../../../data/data";
+import { programsListFirst, programsListSecond, programsListThird } from "../../../data/data";
 import ScrollToTop from "../../utils/ScrollToTop";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
@@ -13,7 +13,7 @@ function AboutProgram() {
 
   const KEY_VIDEOS = 'videos';
 
-  const data = programsListFirst.concat(programsListSecond).find(item => item.id === id);
+  const data = programsListFirst.concat(programsListSecond, programsListThird).find(item => item.id === id);
 
   const [popupIsOpen, setPopupIsOpen] = useState(false);
   const [popupImg, setPopupImg] = useState({});

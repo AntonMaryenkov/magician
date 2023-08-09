@@ -7,17 +7,6 @@ import imgPhotosGrid5 from '../images/photos-grid/img5.jpg';
 import imgPhotosGrid6 from '../images/photos-grid/img6.jpg';
 import imgPhotosGrid7 from '../images/photos-grid/img7.jpg';
 import imgPhotosGrid8 from '../images/photos-grid/img8.jpg';
-// Интерактивная программа «Lite»
-import imgMainLite from '../images/programs/Lite/image-main.jpg';
-import imgLiteAboutProgram from '../images/programs/Lite/img0.jpg';
-import imgLite1 from '../images/programs/Lite/img1.jpg';
-import imgLite2 from '../images/programs/Lite/img2.jpg';
-import imgLite3 from '../images/programs/Lite/img3.jpg';
-import imgLite4 from '../images/programs/Lite/img4.jpg';
-import imgLite5 from '../images/programs/Lite/img5.jpg';
-import imgLite6 from '../images/programs/Lite/img6.jpg';
-import imgLite7 from '../images/programs/Lite/img7.jpg';
-import imgLite8 from '../images/programs/Lite/img8.jpg';
 // Классика
 import imgMainClassic from '../images/programs/Classic/image-main.jpg';
 import imgClassicAboutProgram from '../images/programs/Classic/img0.jpg';
@@ -32,18 +21,31 @@ import imgClassic8 from '../images/programs/Classic/img8.jpg';
 import imgClassic9 from '../images/programs/Classic/img9.jpg';
 import imgClassic10 from '../images/programs/Classic/img10.jpg';
 import imgClassic11 from '../images/programs/Classic/img11.jpg';
-// Шоу «LOVE MAGIC»
-import imgMainLoveMagic from '../images/programs/LoveMagic/image-main.jpg';
-import imgLoveMagicAboutProgram from '../images/programs/LoveMagic/img0.jpg';
-import imgLoveMagic1 from '../images/programs/LoveMagic/img1.jpg';
-import imgLoveMagic2 from '../images/programs/LoveMagic/img2.jpg';
-import imgLoveMagic3 from '../images/programs/LoveMagic/img3.jpg';
-import imgLoveMagic4 from '../images/programs/LoveMagic/img4.jpg';
-import imgLoveMagic5 from '../images/programs/LoveMagic/img5.jpg';
-import imgLoveMagic6 from '../images/programs/LoveMagic/img6.jpg';
-import imgLoveMagic7 from '../images/programs/LoveMagic/img7.jpg';
-import imgLoveMagic8 from '../images/programs/LoveMagic/img8.jpg';
-//Детское иллюзионное шоу
+// Premium
+import imgMainPremium from '../images/programs/Premium/image-main.jpg';
+import imgPremiumAboutProgram from '../images/programs/Premium/img0.jpg';
+import imgPremium1 from '../images/programs/Premium/img1.jpg';
+import imgPremium2 from '../images/programs/Premium/img2.jpg';
+import imgPremium3 from '../images/programs/Premium/img3.jpg';
+import imgPremium4 from '../images/programs/Premium/img4.jpg';
+import imgPremium5 from '../images/programs/Premium/img5.jpg';
+import imgPremium6 from '../images/programs/Premium/img6.jpg';
+import imgPremium7 from '../images/programs/Premium/img7.jpg';
+import imgPremium8 from '../images/programs/Premium/img8.jpg';
+// Luxury
+import imgMainLuxury from '../images/programs/Luxury/image-main.jpg';
+import imgLuxuryAboutProgram from '../images/programs/Luxury/img0.jpg';
+import imgLuxury1 from '../images/programs/Luxury/img1.jpg';
+import imgLuxury2 from '../images/programs/Luxury/img2.jpg';
+import imgLuxury3 from '../images/programs/Luxury/img3.jpg';
+import imgLuxury4 from '../images/programs/Luxury/img4.jpg';
+import imgLuxury5 from '../images/programs/Luxury/img5.jpg';
+import imgLuxury6 from '../images/programs/Luxury/img6.jpg';
+import imgLuxury7 from '../images/programs/Luxury/img7.jpg';
+import imgLuxury8 from '../images/programs/Luxury/img8.jpg';
+import imgLuxury9 from '../images/programs/Luxury/img9.jpg';
+import imgLuxury10 from '../images/programs/Luxury/img10.jpg';
+// Детское иллюзионное шоу
 import imgMainChildrensShow from '../images/programs/ChildrensShow/image-main.jpg';
 import imgChildrensShowcAboutProgram from '../images/programs/ChildrensShow/img1.jpg';
 import imgChildrensShow2 from '../images/programs/ChildrensShow/img2.jpg';
@@ -52,17 +54,7 @@ import imgChildrensShow4 from '../images/programs/ChildrensShow/img4.jpg';
 import imgChildrensShow6 from '../images/programs/ChildrensShow/img6.jpg';
 import imgChildrensShow7 from '../images/programs/ChildrensShow/img7.jpg';
 import imgChildrensShow8 from '../images/programs/ChildrensShow/img8.jpg';
-// Иллюзионное шоу для детей и всей семьи
-import imgMainIllusionShowFamily from '../images/programs/IllusionShowFamily/image-main.jpg';
-import imgIllusionShowFamilyAboutProgram from '../images/programs/IllusionShowFamily/img0.jpg';
-import imgIllusionShowFamily1 from '../images/programs/IllusionShowFamily/img1.jpg';
-import imgIllusionShowFamily2 from '../images/programs/IllusionShowFamily/img2.jpg';
-import imgIllusionShowFamily3 from '../images/programs/IllusionShowFamily/img3.jpg';
-import imgIllusionShowFamily4 from '../images/programs/IllusionShowFamily/img4.jpg';
-import imgIllusionShowFamily5 from '../images/programs/IllusionShowFamily/img5.jpg';
-import imgIllusionShowFamily6 from '../images/programs/IllusionShowFamily/img6.jpg';
-import imgIllusionShowFamily7 from '../images/programs/IllusionShowFamily/img7.jpg';
-// Большое шоу
+// Иллюзионное шоу для детей и их родителей
 import imgMainBigShow from '../images/programs/BigShow/image-main.jpg';
 import imgBigShowAboutProgram from '../images/programs/BigShow/img0.jpg';
 import imgBigShow1 from '../images/programs/BigShow/img1.jpg';
@@ -72,21 +64,6 @@ import imgBigShow5 from '../images/programs/BigShow/img5.jpg';
 import imgBigShow6 from '../images/programs/BigShow/img6.jpg';
 import imgBigShow7 from '../images/programs/BigShow/img7.jpg';
 import imgBigShow8 from '../images/programs/BigShow/img8.jpg';
-// Сlouse-up magic (микромагия)
-import imgMainStreetMagic from '../images/programs/ClouseUpMagic/image-main.jpg';
-import imgStreetMagicAboutProgram from '../images/programs/ClouseUpMagic/img0.jpg';
-import imgStreetMagic1 from '../images/programs/ClouseUpMagic/img1.jpg';
-import imgStreetMagic2 from '../images/programs/ClouseUpMagic/img2.jpg';
-import imgStreetMagic3 from '../images/programs/ClouseUpMagic/img3.jpg';
-import imgStreetMagic4 from '../images/programs/ClouseUpMagic/img4.jpg';
-import imgStreetMagic5 from '../images/programs/ClouseUpMagic/img5.jpg';
-import imgStreetMagic6 from '../images/programs/ClouseUpMagic/img6.jpg';
-import imgStreetMagic7 from '../images/programs/ClouseUpMagic/img7.jpg';
-import imgStreetMagic8 from '../images/programs/ClouseUpMagic/img8.jpg';
-import imgStreetMagic9 from '../images/programs/ClouseUpMagic/img9.jpg';
-import imgStreetMagic10 from '../images/programs/ClouseUpMagic/img10.jpg';
-import imgStreetMagic11 from '../images/programs/ClouseUpMagic/img11.jpg';
-import imgStreetMagic12 from '../images/programs/ClouseUpMagic/img12.jpg';
 // Magic+
 import imgMainMagicPlus from '../images/programs/MagicPlus/image-main.jpg';
 import imgMagicPlusAboutProgram from '../images/programs/MagicPlus/img0.jpg';
@@ -243,67 +220,6 @@ export const imgPhotosGridList = [
 
 export const programsListFirst = [
   {
-    id: 'lite',
-    name: 'Экспресс поздравление',
-    images: {
-      imgMain: {
-        src: imgMainLite,
-        alt: 'Magic Man с тремя большими игральными картами.'
-      },
-      imgAboutProgram: {
-        src: imgLiteAboutProgram,
-        alt: 'Magic Man и фокус с лимоном.'
-      },
-      photos: [
-        {
-          id: 'imgLite1',
-          src: imgLite1,
-          alt: 'Magic Man и фокус с верёвкой.'
-        },
-        {
-          id: 'imgLite2',
-          src: imgLite2,
-          alt: 'Magic Man и довольный зритель.'
-        },
-        {
-          id: 'imgLite3',
-          src: imgLite3,
-          alt: 'Magic Man и телепатия.'
-        },
-        {
-          id: 'imgLite4',
-          src: imgLite4,
-          alt: 'Сценический трюк.'
-        },
-        {
-          id: 'imgLite5',
-          src: imgLite5,
-          alt: 'Фокус на юбилее.'
-        },
-        {
-          id: 'imgLite6',
-          src: imgLite6,
-          alt: 'Фокус с животным.'
-        },
-        {
-          id: 'imgLite7',
-          src: imgLite7,
-          alt: 'Magic Man работает на юбилее.'
-        },
-        {
-          id: 'imgLite8',
-          src: imgLite8,
-          alt: 'Magic Man на лотерее.'
-        },
-      ]
-    },
-    description: [
-      'Шоу идеально подойдёт для небольшой компании, поздравления в офисе, юбилея до 20 человек. Поздравление с 8 марта и любым профессиональным праздником. Яркое, динамичное представление с участием зрителей, заставит поверить Вас в настоящую магию! Превращение предметов у вас в руках, чтение мыслей и даже телепортация, такое представление никого не оставит равнодушным!',
-    ],
-    duration: '10-12 минут',
-    price: '10 000₽',
-  },
-  {
     id: 'classic',
     name: 'Классика',
     images: {
@@ -380,68 +296,142 @@ export const programsListFirst = [
     price: '15 000₽',
   },
   {
-    id: 'love-magic',
-    name: 'Шоу «LOVE MAGIC»',
+    id: 'premium',
+    name: 'Premium',
     images: {
       imgMain: {
-        src: imgMainLoveMagic,
-        alt: 'Magic Man с голубем.'
+        src: imgMainPremium,
+        alt: 'Magic Man с большими картами.'
       },
       imgAboutProgram: {
-        src: imgLoveMagicAboutProgram,
+        src: imgPremiumAboutProgram,
         alt: 'Фокус с исчезновением человека.'
       },
       photos: [
         {
-          id: 'imgLoveMagic1',
-          src: imgLoveMagic1,
+          id: 'imgPremium1',
+          src: imgPremium1,
           alt: 'Фокус с картами.'
         },
         {
-          id: 'imgLoveMagic2',
-          src: imgLoveMagic2,
+          id: 'imgPremium2',
+          src: imgPremium2,
           alt: 'Появление человека из телевизора.'
         },
         {
-          id: 'imgLoveMagic3',
-          src: imgLoveMagic3,
+          id: 'imgPremium3',
+          src: imgPremium3,
           alt: 'Иллюзион с появлением человека.'
         },
         {
-          id: 'imgLoveMagic4',
-          src: imgLoveMagic4,
+          id: 'imgPremium4',
+          src: imgPremium4,
           alt: 'Интерактив со зрителем.'
         },
         {
-          id: 'imgLoveMagic5',
-          src: imgLoveMagic5,
+          id: 'imgPremium5',
+          src: imgPremium5,
           alt: 'Фокус с картиной.'
         },
         {
-          id: 'imgLoveMagic6',
-          src: imgLoveMagic6,
+          id: 'imgPremium6',
+          src: imgPremium6,
           alt: 'Фокус со свечами.'
         },
         {
-          id: 'imgLoveMagic7',
-          src: imgLoveMagic7,
+          id: 'imgPremium7',
+          src: imgPremium7,
           alt: 'Фокус с книгой.'
         },
         {
-          id: 'imgLoveMagic8',
-          src: imgLoveMagic8,
+          id: 'imgPremium8',
+          src: imgPremium8,
           alt: 'Красочный финал выступления с ярким салютом.'
         },
       ]
     },
     description: [
-      'Это 35 минутное шоу, (есть возможность его разделить на 2 выхода по 15-17 минут) которое воплощает в себе всю прелесть иллюзионного жанра, эта программа заставит поверить в чудо даже самых отчаянных скептиков. Шоу похоже на программу «Классика», но по плотности номеров и эффектов увеличенная в 2,5 раза, так же данное шоу дополняются двумя эксклюзивными номерами:',
-      '✔️ Драгоценный предмет зрителя, кольцо, кулон или часы невероятным образом исчезают и появляются в невозможном месте!',
-      '✔️ Невероятное размножение бутылок вина сопровождается искрометным юмором и криками из зала «А можно нам так же?».'
+      'Этот пакет включает в себя 2 программы, магическая встреча гостей на вашем мероприятии и полноценное сценическое выступление.',
+      'Встреча гостей пройдёт в формате «Street magic», в основном это фокусы с картами, мелкими предметами, телефонами, визитками и любыми другими предметами, самое удивительное, что все это происходит на очень близком расстоянии от зрителей, а порою даже в руках изумленной публики. Продолжительность встречи гостей до 1 часа.',
+      'Варианты программ сценического шоу мы обсудим с Вами лично по телефону, возможно, мы уже работали с Вами, или Вы видели мою программу на каком-то мероприятии, именно поэтому я подберу для Вас уникальное шоу состоящее из номеров которые Вам еще не знакомы. Продолжительность сценического шоу до 20 минут.',
     ],
-    duration: '35 минут',
+    duration: '1 час 20 минут',
     price: '25 000₽',
   },
+  {
+    id: 'luxury',
+    name: 'Luxury',
+    images: {
+      imgMain: {
+        src: imgMainLuxury,
+        alt: 'Magic Man держит в руках голубя.'
+      },
+      imgAboutProgram: {
+        src: imgLuxuryAboutProgram,
+        alt: 'Демонстрация фокуса с появлением вина.'
+      },
+      photos: [
+        {
+          id: 'imgLuxury1',
+          src: imgLuxury1,
+          alt: 'Magic Man собирает кубик Рубика с закрытыми глазами.'
+        },
+        {
+          id: 'imgLuxury2',
+          src: imgLuxury2,
+          alt: 'Карта зрителя оказалась во рту у фокусника.'
+        },
+        {
+          id: 'imgLuxury3',
+          src: imgLuxury3,
+          alt: 'Иллюзия с веревками.'
+        },
+        {
+          id: 'imgLuxury4',
+          src: imgLuxury4,
+          alt: 'Жених и невеста учавствуют в номере.'
+        },
+        {
+          id: 'imgLuxury5',
+          src: imgLuxury5,
+          alt: 'Появление рыбки в стакане.'
+        },
+        {
+          id: 'imgLuxury6',
+          src: imgLuxury6,
+          alt: 'Интерактивный фокус с верёвкой.'
+        },
+        {
+          id: 'imgLuxury7',
+          src: imgLuxury7,
+          alt: 'Появление предмета зрителя в коробке.'
+        },
+        {
+          id: 'imgLuxury8',
+          src: imgLuxury8,
+          alt: 'Начало шоу.'
+        },
+        {
+          id: 'imgLuxury9',
+          src: imgLuxury9,
+          alt: 'Magic Man читает мысли зрителя.'
+        },
+        {
+          id: 'imgLuxury10',
+          src: imgLuxury10,
+          alt: 'Левитация женщины.'
+        },
+      ]
+    },
+    description: [
+      'Этот пакет заключает в себе магическую встречу гостей и 2 сценический шоу по 20 минут. В этом шоу вас ждёт уникальная телепортация Ваших предметов, размножение предметов и даже левитация человека.'
+    ],
+    duration: 'Обсуждается индивидуально',
+    price: '45 000₽',
+  },
+];
+
+export const programsListSecond = [
   {
     id: 'childrens-illusion-show',
     name: 'Детское иллюзионное шоу',
@@ -495,65 +485,8 @@ export const programsListFirst = [
     price: '10 000₽.',
   },
   {
-    id: 'family-show',
-    name: 'Иллюзионное шоу для детей и всей семьи',
-    images: {
-      imgMain: {
-        src: imgMainIllusionShowFamily,
-        alt: 'Magic Man тасует карты. Одна из карт в его зубах.'
-      },
-      imgAboutProgram: {
-        src: imgIllusionShowFamilyAboutProgram,
-        alt: 'Два мужчины связывают Сергея Салтымакова.'
-      },
-      photos: [
-        {
-          id: 'imgIllusionShowFamily1',
-          src: imgIllusionShowFamily1,
-          alt: 'Фокус со шляпой и интерактив с детьми.'
-        },
-        {
-          id: 'imgIllusionShowFamily2',
-          src: imgIllusionShowFamily2,
-          alt: 'Девочка проверяет реквизит.'
-        },
-        {
-          id: 'imgIllusionShowFamily3',
-          src: imgIllusionShowFamily3,
-          alt: 'Девушка принимает участие в интерактивной программе, она стоит на стуле с вытянутыми в разные стороны руками.'
-        },
-        {
-          id: 'imgIllusionShowFamily4',
-          src: imgIllusionShowFamily4,
-          alt: 'Мама и дочка принимают участие в фокусе с кошельком.'
-        },
-        {
-          id: 'imgIllusionShowFamily5',
-          src: imgIllusionShowFamily5,
-          alt: 'Сергей Салтымаков и волшебный стол.'
-        },
-        {
-          id: 'imgIllusionShowFamily6',
-          src: imgIllusionShowFamily6,
-          alt: 'Фокус с исчезновением и два ребенка - участника интерактивного шоу.'
-        },
-        {
-          id: 'imgIllusionShowFamily7',
-          src: imgIllusionShowFamily7,
-          alt: 'Дети и фокус с веревкой.'
-        },
-      ]
-    },
-    description: [
-      'Рекомендовано к просмотру от 10 лет.',
-      'Эта программа для детей старше 10 лет, подростков и их родителей. Трюки построены на взаимодействии со зрителями, и смысл фокусов уже гораздо серьезней чем в детской программе, здесь вы увидите фокусы с картами, числами, чтением мыслей, головоломками и даже деньгами.'
-    ],
-    duration: '30 минут',
-    price: '13 000₽',
-  },
-  {
     id: 'big-show',
-    name: 'Большое шоу',
+    name: 'Иллюзионное шоу для детей и их родителей',
     images: {
       imgMain: {
         src: imgMainBigShow,
@@ -572,12 +505,12 @@ export const programsListFirst = [
         {
           id: 'imgBigShow2',
           src: imgBigShow2,
-          alt: 'Magic Man готовиться представить зрителям фокус с левитацией.'
+          alt: 'Фокус с мячиками.'
         },
         {
           id: 'imgBigShow3',
           src: imgBigShow3,
-          alt: 'Девочка принимает участие в фокусе "Парящий человек".'
+          alt: 'Magic Man достаёт веревку из мешка.'
         },
         {
           id: 'imgBigShow5',
@@ -610,88 +543,7 @@ export const programsListFirst = [
   },
 ];
 
-export const programsListSecond = [
-  {
-    id: 'clouse-up-magic',
-    name: 'Сlouse-up magic (микромагия)',
-    images: {
-      imgMain: {
-        src: imgMainStreetMagic,
-        alt: 'Карточная тасовка.'
-      },
-      imgAboutProgram: {
-        src: imgStreetMagicAboutProgram,
-        alt: 'Карточный фокус.'
-      },
-      photos: [
-        {
-          id: 'imgStreetMagic1',
-          src: imgStreetMagic1,
-          alt: 'Зрители проверяют иллюзионный реквизит.'
-        },
-        {
-          id: 'imgStreetMagic2',
-          src: imgStreetMagic2,
-          alt: 'Ребёнок внимательно следит за карточным фокусом.'
-        },
-        {
-          id: 'imgStreetMagic3',
-          src: imgStreetMagic3,
-          alt: 'Две девочки пытаются разоблачить трюк.'
-        },
-        {
-          id: 'imgStreetMagic4',
-          src: imgStreetMagic4,
-          alt: 'Флориш с картами.'
-        },
-        {
-          id: 'imgStreetMagic5',
-          src: imgStreetMagic5,
-          alt: 'Фокус для работников "Fit-servis".'
-        },
-        {
-          id: 'imgStreetMagic6',
-          src: imgStreetMagic6,
-          alt: 'Восторженная публика.'
-        },
-        {
-          id: 'imgStreetMagic7',
-          src: imgStreetMagic7,
-          alt: 'Magic Man угадал карту. Зритель в восторге.'
-        },
-        {
-          id: 'imgStreetMagic8',
-          src: imgStreetMagic8,
-          alt: 'Искренее удивление юного зрителя от чуда.'
-        },
-        {
-          id: 'imgStreetMagic9',
-          src: imgStreetMagic9,
-          alt: 'Двое мужчин следят за действием рук Сергея.'
-        },
-        {
-          id: 'imgStreetMagic10',
-          src: imgStreetMagic10,
-          alt: 'Женщина радуется удачному фокусу с мячиками.'
-        },
-        {
-          id: 'imgStreetMagic11',
-          src: imgStreetMagic11,
-          alt: 'Сергей Салтымаков показывает женщинам карточный фокус.'
-        },
-        {
-          id: 'imgStreetMagic12',
-          src: imgStreetMagic12,
-          alt: 'Девочка смотрит карточный фокус.'
-        },
-      ]
-    },
-    description: [
-      'Это уникальный жанр переплетает в себе и ловкость рук, и отвлечение внимание, и ментализм - чтение мыслей, и много всего другого, а главное что все происходите на расстоянии вытянутой руки, а порою и в руках зрителя! Этот жанр прекрасно подходит чтоб встретить гостей в начале мероприятия или заполнить перерыв в программе! Продолжительность шоу 30 минут, (изменения во времени данного шоу - увеличение или уменьшение обговаривается отдельно) Стоимость 9500₽. При заказе любого пакета сценического номера, услугу «Street Magic» вы можете купить за 5000₽',
-    ],
-    duration: '30 минут',
-    price: '12 000₽',
-  },
+export const programsListThird = [
   {
     id: 'magic-plus',
     name: '«Magic+»',
