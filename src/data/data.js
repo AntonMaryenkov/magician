@@ -91,6 +91,7 @@ import videoPortfolio5 from '../videos/portfolio/video5.MP4';
 import videoPortfolio6 from '../videos/portfolio/video6.MP4';
 import videoPortfolio7 from '../videos/portfolio/video7.MP4';
 import videoPortfolio9 from '../videos/portfolio/video9.MOV';
+import videoPortfolio10 from '../videos/portfolio/video10.mp4';
 // Скрины для видео Portfolio
 import imgVideoScreen1 from '../videos/portfolio/img-screen/videoScreen1.jpg';
 import imgVideoScreen2 from '../videos/portfolio/img-screen/videoScreen2.jpg';
@@ -100,6 +101,7 @@ import imgVideoScreen5 from '../videos/portfolio/img-screen/videoScreen5.jpg';
 import imgVideoScreen6 from '../videos/portfolio/img-screen/videoScreen6.jpg';
 import imgVideoScreen7 from '../videos/portfolio/img-screen/videoScreen7.jpg';
 import imgVideoScreen9 from '../videos/portfolio/img-screen/videoScreen9.jpg';
+import imgVideoScreen10 from '../videos/portfolio/img-screen/videoScreen10.jpg';
 // Фотографии для Portfolio grid
 import imgGridPortfolio1 from '../images/portfolio/photos/img1.jpg';
 import imgGridPortfolio2 from '../images/portfolio/photos/img2.jpg';
@@ -119,6 +121,7 @@ import posterPortfolio8 from '../images/portfolio/posters/poster8.jpg';
 import posterPortfolio9 from '../images/portfolio/posters/poster9.jpg';
 import posterPortfolio10 from '../images/portfolio/posters/poster10.jpg';
 import posterPortfolio11 from '../images/portfolio/posters/poster11.jpg';
+import posterPortfolio12 from '../images/portfolio/posters/poster12.jpg';
 // Дипломы для Portfolio
 import diplomaPortfolio1 from '../images/portfolio/diplomas/img1.jpg';
 import diplomaPortfolio2 from '../images/portfolio/diplomas/img2.jpg';
@@ -534,6 +537,13 @@ export const programsListSecond = [
         },
       ]
     },
+    videos: [
+      {
+        id: 'videoBigShow1',
+        video: videoPortfolio10,
+        poster: imgVideoScreen10,
+      },
+    ],
     description: [
       'Это полноценное иллюзионное шоу, с превращением предметов, левитацией, чтением мыслей и предсказаниями, оно позволит окунуться в мир магии с головой!',
       'В этом шоу вы увидите трюки различных жанров: ментализм - чтение мыслей, сценическая магия - крупные фокусы основанные на ловкости рук и отвлечении внимания, микромагия - трюки с картами и мелкими предметами!',
@@ -649,11 +659,16 @@ export const programsListThird = [
 ];
 
 export const portfolioDescription = [
-  'Фокусник, иллюзионист, член Российской Ассоциации Иллюзионистов, член союза театральных деятелей РФ, артист высшей категории театра кукол Кузбасса им. А. Гайдара, педагог КемГИК. Автор и исполнитель иллюзионных шоу: «Секретные материалы», «Только, без фокусов», «Шоу фантастических иллюзий»',
-  'Свой путь иллюзиониста я начал в 2010 году изучив самостоятельно несколько простейших фокусов. Иллюзионный жанр так сильно вдохновил меня, что я не смог остановиться и погрузился в него с головой, спустя многие годы работы, тренировок и экспериментов я могу похвастаться высокими наградами на международных чемпионатах для иллюзионистов, и престижным титулом - Чемпион Сибири по «Сценической Магии».'
+  'Фокусник, иллюзионист, член Российской ассоциации иллюзионистов, автор и исполнитель иллюзионных шоу «Секретные материалы», «Только, без фокусов», «Шоу фантастических иллюзий», «По ту сторону фокусов». Чемпион Сибири по «Сценической магии» 2019г.',
+  'Более 10 лет я удивляю публику на мероприятиях различных масштабов, от небольших квартирников до тысячных стадионов. За моими плечами опыт, который наполнит шоу качественным юмором, разрывающими ваше воображение трюками, а созданные номера навсегда останутся в вашем сердце и подарят незабываемые эмоции, ведь в каждый фокус я вкладываю свою душу.'
 ];
 
 export const videosPortfolioList = [
+  {
+    id: 'videoPortfolio10',
+    video: videoPortfolio10,
+    poster: imgVideoScreen10,
+  },
   {
     id: 'videoPortfolio1',
     video: videoPortfolio1,
@@ -784,6 +799,11 @@ export const portfolioPostersList = [
     id: 'posterPortfolio11',
     src: posterPortfolio11,
     alt: 'Афиша: Сергей Салтымаков и его шоу иллюзий в лофткафе "Шоколад".'
+  },
+  {
+    id: 'posterPortfolio12',
+    src: posterPortfolio12,
+    alt: 'Афиша: Сергей Салтымаков и его шоу "По ту сторону фокуса".'
   },
 ];
 
