@@ -44,7 +44,6 @@ function AboutProgram() {
             <p key={`about-program-description-${i}`} className='about-program__description'>{item}</p>
           )}
           <p className='about-program__duration-price'>Продолжительность: {data.duration}</p>
-          <p className='about-program__duration-price'>Цена: {data.price}</p>
         </div>
       </div>
       <h3 className='about-program__title'>Галерея</h3>

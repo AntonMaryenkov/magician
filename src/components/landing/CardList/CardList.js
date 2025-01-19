@@ -10,7 +10,6 @@ function CardList(props) {
         alt={item.images.imgMain.alt}
         name={item.name}
         duration={item.duration}
-        price={item.price}
         description={item.description}
       />)}
     </div>
